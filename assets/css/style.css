@@ -1,0 +1,43 @@
+body {
+    background: url("../images/grey.png");
+}
+
+.container-fluid {
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+
+button {
+    background-color: teal !important;
+    color: white !important;
+    border: none;
+    float: left;
+    margin: 7px;
+}
+
+#show-form {
+    margin: 7px;
+}
+
+.btn {
+    border: none;
+    text-shadow: 2px 2px 4px #464646;
+    box-shadow: 2px 2px 4px #464646;
+}
+
+.item {
+    float: left;
+    margin: 3px;
+}
+
+.row {
+    margin: 13px;
+}
+
+#gif-buttons {
+    margin-bottom: 10px;
+}

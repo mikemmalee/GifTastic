@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Search for Gifs by your Favorite Show!</h1>
+        <div class="row">
+            <div class="col-md-12" id="gif-buttons">
+                <!-- buttons go here -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form>
+                    <div class="form-group" id="show-form">
+                        <label for="gif-search">Add a Show!</label>
+                        <input type="text" class="form-control" id="gif-search">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="add-show">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="show-gifs">
+                <!-- gifs go here  -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="assets/javascript/app.js"></script>
+
+</html>
